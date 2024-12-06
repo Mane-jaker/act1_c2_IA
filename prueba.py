@@ -233,7 +233,7 @@ def create_gui():
     window.title("Algoritmo Genético")
 
     tk.Label(window, text="Ruta del Dataset:").grid(row=0, column=0, padx=10, pady=5)
-    dataset_combobox = ttk.Combobox(window, values=["2024.05.22 dataset.xlsx", "203140.csv", "213347_(221201).csv"], width=27)
+    dataset_combobox = ttk.Combobox(window, values=["2024.05.22 dataset.xlsx", "213347_221216.csv", "213347_(221201).csv"], width=27)
     dataset_combobox.grid(row=0, column=1, padx=10, pady=5)
     dataset_combobox.set("Selecciona el Dataset")
 
